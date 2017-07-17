@@ -1,0 +1,170 @@
+.genie-target-on {
+    z-index: 999999 !important
+}
+
+.jarvis-phrase {
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+
+#jarvis_body {
+    margin: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.admin-bar #genie-target {
+    top: 30px !important;
+}
+
+.qcld_clear {
+    clear: both;
+}
+
+.jarvis_close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    font-size: 34px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    background: transparent;
+    z-index: 1;
+    color: #595959;
+    border: none;
+}
+
+.jarvis_close:hover {
+    background: transparent;
+}
+
+.jarvis_recently2 {
+    display: none;
+}
+
+#genie-lamp {
+    bottom: 30px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    position: fixed;
+    right: 30px;
+    z-index: 9999;
+    width: 65px;
+    height: 65px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=90, Color=#8f8f8f)"; /*IE 8*/
+    -moz-box-shadow: 0px 0px 10px #8f8f8f; /*FF 3.5+*/
+    -webkit-box-shadow: 0px 0px 10px #8f8f8f; /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+    box-shadow: 0px 0px 10px #8f8f8f; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+    filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=90, Color=#8f8f8f); /*IE 5.5-7*/
+}
+
+/*Start Recent view product widget */
+.widget_jarvis_recently_viewed_products ul {
+    margin: 0;
+    padding: 0;
+}
+
+.widget_jarvis_recently_viewed_products ul li {
+    list-style: none;
+}
+
+.widget_jarvis_recently_viewed_products ul.widget_jarvis_product_list li.widget_jarvis_product {
+    list-style: none;
+    margin: 2px 0;
+    padding: 5px 10px;
+    border-bottom: 1px dotted #dce2e6;
+    position: relative;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+.widget_jarvis_recently_viewed_products ul.widget_jarvis_product_list li.widget_jarvis_product img {
+    width: 65px;
+    float: left;
+    height: auto;
+    box-shadow: 0 5px 5px -2px gray;
+    margin: 0 15px 5px 0 !important;
+}
+
+.widget_jarvis_recently_viewed_products h3.widget_jarvis_product_title {
+    padding: 0;
+    margin: 2px 0;
+    line-height: normal;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: normal;
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.widget_jarvis_recently_viewed_products ul.widget_jarvis_product_list li.widget_jarvis_product .widget_price {
+    display: block;
+    margin: 3px 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: #005e74;
+}
+
+.widget_jarvis_recently_viewed_products .onsale, ul.widget_jarvis_product_list li.widget_jarvis_product .star-rating, .price del {
+    display: none;
+}
+
+/*End Recent view product widget */
+
+.widget-jarvis-inner {
+    font-size: 28px;
+    line-height: 150%;
+    background-color: #F5F5F5;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+}
+
+.widget-jarvis-inner .jarvis-find {
+    display: block !important;
+    background-color: #e2e2e2;
+    border-bottom: none !important;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    height: auto !important;
+    text-align: center;
+}
+
+.widget-jarvis-inner .jarvis-find:hover {
+    background-color: #e8e8e8;
+}
+
+.woocommerce-jarvis .widget-jarvis-inner .jarvis-field ul li a {
+    background-color: #00a2ca;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    line-height: 36px;
+    padding: 0 8px;
+    white-space: nowrap;
+    min-width: 118px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.woocommerce-jarvis .widget-jarvis-inner .jarvis-field ul li a:hover {
+    background-color: #057894;
+}
+
+
+
+
+
+
+
+
+
+
+
